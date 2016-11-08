@@ -1,0 +1,36 @@
+.banner {
+    height: 767px;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    z-index: -1;
+    padding-top: 359px;
+    .logo-large {
+        position: absolute;
+        left: -300px;
+        bottom: -150px;
+    }
+    .container {
+        text-align: right;
+    }
+    h2 {
+        font-size: 120px;
+        font-weight: 400;
+    }
+    .slogan {
+        font-size: 37px;
+        color: $white;
+        font-weight: 400;
+    }
+    .mark {
+        font-size: 48px;
+        font-weight: normal;
+    }
+}
+
+.circle-part {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 900;
+}
