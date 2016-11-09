@@ -1,18 +1,39 @@
 .container{
 	max-width: 960px;
-	padding: 10px 0;
+	padding:0 10px;
 	margin:0 auto;
 }
 #wrapper{
 	position: relative;
 	overflow: hidden;
+	min-width: 960px;
+
 }
 .circle-holder{
 	background-image: url(../images/circle-large.png);
-	background-size: contain;
+	background-size:auto 103%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+		padding-top: 108px;
+		padding-bottom: 98px;
 }
-#content{
-	padding-top: 100px;
+
+.btn-default{
+	@include animate(background-color);
+	padding: 14px 29px;
+	background-color: $scarlet-light;
+	color: $white;
+	text-decoration: none;	
+	&:hover{
+			text-decoration: none;
+			color:$white;
+			background-color: rgba($scarlet-light , .85);
+	}
+}
+
+@media only screen and (min-width: 1025px){
+a[href^=tel], a[href^=skype], a[href^=sms] {
+    cursor: default;
+    pointer-events: none;
+} 
 }

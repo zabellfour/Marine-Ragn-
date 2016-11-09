@@ -8,11 +8,11 @@
 
 .header-top {
     background: rgba($scarlet-light, .8);
-    padding: 34px;
+    padding: 34px 34px 25px;
 }
 .header-bott{
 	background-color: rgba($white, 0.4);
-	padding: 20px;
+	padding: 19px 0 25px;
 }
 .logo {
     width: 82px;
@@ -27,5 +27,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    a {}
+    a {
+    	&.active{
+    		color:$scarlet;
+    		text-decoration: underline;	
+    	}
+    }
 }

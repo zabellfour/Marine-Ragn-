@@ -1,0 +1,73 @@
+.thumb-wrapper {
+    @extend %clearfix;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.thumb-holder {
+     .btn-default{
+        font-style: italic; 
+     }
+    h1 {
+        color: $scarlet-light;
+        font-weight: 400;
+        line-height: 1;
+        margin-bottom: -11px;   
+        text-align: right;
+        position: relative; 
+        z-index: 11;
+    }
+    & + .thumb-holder{
+        h1{
+            text-align:left;
+        }
+        h3{
+            text-align:left;
+              margin-bottom: 15px; 
+        }
+        .thumb-body{
+            padding: 19px 70px 62px 60px;
+        }
+        .btn-default{
+             left: auto;
+    right: 89px;
+    padding-left: 66px;
+    padding-right: 72px;
+        }
+
+    }
+}
+
+.thumb-body {
+    background-color: #f0f0f0;
+  padding: 26px 70px 52px 78px;
+    max-width: 710px;
+    color: $scarlet;
+    margin-bottom: 83px;
+    position: relative;
+    margin-right: -11px;    
+    font-size: 18px;    
+   line-height:     1.6;
+   letter-spacing: 1.5px;
+                
+    h3 {
+        color: $scarlet;
+        text-align: right;  
+        letter-spacing: 2.5px;
+        margin-bottom: 30px;    
+    }
+    p {
+        margin-bottom: 0;
+    }
+    .btn-default {
+        position: absolute;
+    left: 78px;
+    bottom: -29px;
+    }
+}
