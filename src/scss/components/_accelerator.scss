@@ -9,20 +9,22 @@
         border: 10px solid transparent;
         display: block;
         position: relative;
-
+        img {
+            width: 100%;
+        }
         &:hover {
             border-color: $scarlet-light;
             img {
                 filter: grayscale(0);
                 width: 100%;
             }
-            h4{
-            	transform:translateY(-70px);
+            h4 {
+                transform: translateY(-70px);
             }
         }
-        h4{
-        	@include animate( transform);
-        	transform:translateY(-20px);
+        h4 {
+            @include animate( transform);
+            transform: translateY(-20px);
         }
         img {
             @include animate(filter);

@@ -5,6 +5,13 @@
     position: relative;
     z-index: -1;
     padding-top: 323px;
+    &.custom-indent{
+        padding-top: 387px;
+        height: 613px;
+        h2{
+            font-size: 85px;
+        }
+    }
     .logo-large {
         position: absolute;
         left: -300px;
