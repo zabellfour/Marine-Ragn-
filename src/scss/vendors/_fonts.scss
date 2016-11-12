@@ -2,20 +2,24 @@
 
 @font-face {
     font-family: 'baskerville_old_faceregular';
-    src: url('../fonts/baskvill-webfont.woff2') format('woff2'),
-         url('../fonts/baskvill-webfont.woff') format('woff');
+    src: url('../fonts/baskvill-webfont.eot');
+    src: url('../fonts/baskvill-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/baskvill-webfont.woff2') format('woff2'),
+         url('../fonts/baskvill-webfont.woff') format('woff'),
+         url('../fonts/baskvill-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
 }
 
 
-
-
 @font-face {
     font-family: 'the_heart_of_everything_demRg';
-    src: url('../fonts/the_heart_of_everything_demo-webfont.woff2') format('woff2'),
-         url('../fonts/the_heart_of_everything_demo-webfont.woff') format('woff');
+    src: url('../fonts/the_heart_of_everything_demo-webfont.eot');
+    src: url('../fonts/the_heart_of_everything_demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/the_heart_of_everything_demo-webfont.woff2') format('woff2'),
+         url('../fonts/the_heart_of_everything_demo-webfont.woff') format('woff'),
+         url('../fonts/the_heart_of_everything_demo-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
